@@ -3,10 +3,11 @@
 ### Instructions
 
 1. Complete the tasks below ahead of an in-person pairing session, where we'll ask you to build on top of your solution and implement some additional functionality
-2. Write your solution as if this code was going into production - we want to see how you'd deliver something in a real world situation. How can you be confident this code will work as expected? What will happen in the case of unexpected input?
-3. Read the _Background_ section below carefully for any performance implications. Consider how to optimise your solution for best performance.
-4. Make use of official documentation and online resources. Feel free to use any resources you want (for example, Stack Overflow), but please make a note of them in your solution.
-5. Bring your solution with you on your own machine to the interview and make sure it's ready to work on (let us know if you need us to provide a laptop).
+1. Please spend between 1-2 hours on the exercise
+1. Write your solution as if this code was going into production - we want to see how you'd deliver something in a real world situation. How can you be confident this code will work as expected? What will happen in the case of unexpected input?
+1. Read the _Background_ section below carefully for any performance implications. Consider how to optimise your solution for best performance.
+1. Make use of official documentation and online resources. Feel free to use any resources you want (for example, Stack Overflow), but please make a note of them in your solution.
+1. Bring your solution with you on your own machine to the interview and make sure it's ready to work on (let us know if you need us to provide a laptop).
 
 ### Background
 
