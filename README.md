@@ -1,6 +1,6 @@
 # Shipments Exercise
 
-## Interview notes
+### Instructions
 
 1. Complete the tasks below ahead of an in-person pairing session, where we'll ask you to build on top of your solution and implement some additional functionality
 2. Write your solution as if this code was going into production - we want to see how you'd deliver something in a real world situation. How can you be confident this code will work as expected? What will happen in the case of unexpected input?
@@ -8,7 +8,7 @@
 4. Make use of documentation and resources. Feel free to use any resources you want (for example, Stack Overflow), but please make a note of them in your solution.
 5. Bring your solution with you on your own machine to the interview and make sure it's ready to iterate on (let us know if you need us to provide a laptop).
 
-## Background
+### Background
 
 Our client, Acme Inc wants to stop using an external vendor for order management and bring the process onto Shift’s own Order Management System (OMS).
 
@@ -60,7 +60,7 @@ Below is a example of what one of the shipments may look like:
 
 The contents of each order object indicates the action Shift needs to take.
 
-## Setup
+### Setup
 
 Requirements:
 
@@ -80,7 +80,7 @@ yarn test
 yarn test --watch
 ```
 
-## Tasks
+### Tasks
 
 1. Fix the failing test
    
@@ -93,5 +93,3 @@ yarn test --watch
 3. Split orders into fulfillments and cancellations
 
    Of the remaining orders, we need to either create a fulfillment, or cancel the order in the Shift OMS. If all order line items in an order have a `QUANTITY` of 0 (zero) cancel the order in Shift's OMS, otherwise fulfil the order.
-
-4. We'll go on to fulfil or cancel these orders using the Shift OMS API during the in-person pairing session.
