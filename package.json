@@ -1,0 +1,16 @@
+{
+  "name": "shipments-exercise",
+  "version": "1.0.0",
+  "description": "Exercise for processing shipment files",
+  "main": "handler.js",
+  "author": "Paul Springett <paul.springett@shiftcommerce.com>",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.2"
+  }
+}
