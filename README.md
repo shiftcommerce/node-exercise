@@ -85,12 +85,18 @@ yarn test --watch
 
 1. Fix the failing test
    
-   We've provided the structure of a handler file and test to get you started. However, the test is failing due to some missing functionality. 
+   We've provided the structure of a handler file and test to get you started. However, the test is failing due to some missing functionality.
+
+   Update the `handler` function so that the test passes.
    
 2. Ignore orders not relevant to the Shift OMS
 
    Some orders within the shipments JSON should not be processed by the Shift OMS, and need to be ignored. If the order attributes `O_ID` and `OMS_ORDER_ID` do not match, we should ignore the order.
 
+   Update the `handler` function to return the correct list of orders.
+
 3. Split orders into fulfillments and cancellations
 
    Of the remaining orders, we need to either create a fulfillment, or cancel the order in the Shift OMS. If all order line items in an order have a `QUANTITY` of 0 (zero) cancel the order in Shift's OMS, otherwise fulfil the order.
+
+   Update the `handler` function to return two lists of orders, one to fulfil and another to cancel.
