@@ -3,6 +3,7 @@
 ### Instructions
 
 1. Complete the tasks below ahead of an in-person pairing session, where we'll ask you to build on top of your solution and implement some additional functionality.
+1. Provide your solution in JavaScript or TypeScript.
 1. Spend no more than 2 hours on the exercise.
 1. Write your solution as if this code was going into production - we want to see how you'd deliver something in a real world situation. How can you be confident this code will work as expected? What will happen in the case of unexpected input?
 1. Read the _Background_ section below carefully for any performance implications. Consider how to optimise your solution for best performance.
